@@ -52,7 +52,7 @@ int main()
     #endif
     int i, j;
     cin>>r>>c;
-    for(i=0;i<r;i++)s[i];
+    for(i=0;i<r;i++)cin>>s[i];
     for(i=0;i<r;i++){
         for(j=0;j<c;j++){
             if(!vis[i][j]){
